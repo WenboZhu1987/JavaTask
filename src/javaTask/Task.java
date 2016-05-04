@@ -14,9 +14,9 @@ public class Task {
 	public static void main(String[] args) {
 		try {
 
-			String femaleNamesTxt = "C://javaTask//femalenames.txt";
-			String malenamesTxt = "C://javaTask//malenames.txt";
-			String csvFile = "C://javaTask//name_email_sample.csv";
+			String femaleNamesTxt = "resources/femalenames.txt";
+			String malenamesTxt = "resources/malenames.txt";
+			String csvFile = "resources/name_email_sample.csv";
 
 			// create a genderList to be written in the csv file later
 			List<String> genderList = new ArrayList();
